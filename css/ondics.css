@@ -1,0 +1,38 @@
+
+/* Icon Style im Dashboard */
+.dashicons.dashicons-yes {
+    color: green;
+
+}
+.dashicons.dashicons-no-alt {
+    color: red;
+}
+
+/* Abstand für Sektion Support-System u. Support-Telefon im Submenü Support */    
+h2.support-system {
+    padding-top: 2em;
+}
+h2.support-telefon {
+    padding-top: 2em;
+}
+
+/* Icon Style im Submenü Support */
+h2.support-system::before {
+    font-family: "dashicons";
+    content: "\f111";
+    padding-right: 5px;
+}
+h2.support-telefon::before {
+    font-family: "dashicons";
+    content: "\f525";
+    padding-right: 5px;
+}
+
+/*Textfarbe für Fehlermeldung*/
+.eingabe {
+    color: red;
+}
+
+.logo {
+    width: 15%;
+}
